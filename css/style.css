@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Quicksand;
+  background: #ccc;
+  color: #565656;
+  background-image: url('sativa.png');
+  background-repeat: repeat;
+}
+hr {
+  border: 2px solid #bbb;
+  margin: 1em 0;
+}
+ a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 1px solid #eee;
+  display: block;
+  margin-top: 1em;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.heading {
+  padding: 2.5em;
+  text-align: center;
+}
+.heading * {
+  padding: 0.3em 0;
+}
+.content {
+  display: flex;
+}
+.card {
+  flex-basis: 32%;
+  background: #fff;
+  box-shadow: 0 0 50px 0 #bbb;
+  padding: 1.5em;
+  line-height: 25px;
+  margin-right: 1em;
+  border-radius: 4px;
+}
+.card * {
+  padding: 0.3em 0;
+}
+.bottom {
+  display: flex;
+}
+.card_lg {
+  flex-basis: 31.5%;
+}
+.card_lg img {
+  width: 100%;
+  padding: 1em 0 3em 0;
+}
+.card-2 {
+  padding: 2em;
+  align-self: center;
+  margin: 0 0 0 1.6em;
+  flex-basis: 65%;
+  background: #fff;
+  box-shadow: 0 0 50px 0 #bbb;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.card-2 * {
+  margin: 0.7em 0;
+}
+.footer {
+  width: 35%;
+  margin: auto;
+  padding: 2em 0;
+}
+.footer * {
+  margin: 0.7em 0;
+}
